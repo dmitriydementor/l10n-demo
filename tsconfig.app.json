@@ -1,0 +1,21 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "../out-tsc/app",
+        "baseUrl": "./src/app",
+        "types": [
+            "materialize-css"
+        ],
+        "paths": {
+            "@app/*": ["./*"]
+        }
+    },
+    "files": [
+        "src/main.browser.ts",
+        "src/polyfills.ts"
+    ],
+    "exclude": [
+        "src/test.ts",
+        "src/**/*.spec.ts"
+    ]
+}

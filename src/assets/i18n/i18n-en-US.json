@@ -1,0 +1,10 @@
+{
+    "home": {
+        "WELCOME_MESSAGE": "Hi, I'm Dmitriy. I'm a Ukraine-based frontend developer.",
+        "WELCOME_MESSAGE_SUBHEADER": "I have almost 3 years experince in the field of frontend. I use Angular for most of my projects.",
+        "CALL_TO_ACTION": "Write me!"
+    },
+    "not-found": {
+        "NOT_FOUND": "Not found - 404"
+    }
+}
